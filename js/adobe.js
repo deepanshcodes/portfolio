@@ -25,7 +25,7 @@ function previewFile()
     /* Initialize the AdobeDC View object */
     var adobeDCView = new AdobeDC.View({
         /* Pass your registered client id */
-        clientId: "39f91ed240444ad6877fbcd650f7f4d7"
+        clientId: "927809fe52cf456d9e69bcc4edbd839e"
     });
 
     /* Invoke the file preview API on Adobe DC View object */
@@ -34,7 +34,7 @@ function previewFile()
         content: {
             /* Location of file where it is hosted */
             location: {
-                url: "https://deepansh530.github.io/portfolio/Deepansh_Kataria_Resume.pdf",
+                url: "https://deepanshcodes.github.io/portfolio/Deepansh_Kataria_Resume.pdf",
                 /*
                 If the file URL requires some additional headers, then it can be passed as follows:-
                 header: [
